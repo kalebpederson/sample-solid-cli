@@ -1,0 +1,7 @@
+﻿{
+  "defaultAssembly": "DemoSolidCli.App",
+  "modules": [
+    {
+      "type": "DemoSolidCli.External.Registrations, DemoSolidCli.External"
+    }]
+}

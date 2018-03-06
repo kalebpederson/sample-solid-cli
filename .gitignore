@@ -1,0 +1,13 @@
+# visual studio files
+.vs
+
+# ncrunch files
+*.ncrunchproject
+*.ncrunchsolution
+_NCrunch*
+
+# general
+packages
+**/obj
+**/bin
+*.user
