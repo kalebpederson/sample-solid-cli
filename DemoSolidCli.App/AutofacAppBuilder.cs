@@ -5,6 +5,7 @@ using Autofac.Configuration;
 using Autofac.Core;
 using DemoSolidCli.CommandLineParser;
 using DemoSolidCli.Domain;
+using DemoSolidCli.Domain.Contracts;
 using Microsoft.Extensions.Configuration;
 
 namespace DemoSolidCli.App

@@ -98,6 +98,10 @@
       <Project>{895D8230-634F-4F0C-AE82-9198AD53013E}</Project>
       <Name>DemoSolidCli.CommandLineParser</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DemoSolidCli.Domain.Contracts\DemoSolidCli.Domain.Contracts.csproj">
+      <Project>{DACFAD9D-087F-4DBE-BF72-A46883D4254A}</Project>
+      <Name>DemoSolidCli.Domain.Contracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DemoSolidCli.Domain\DemoSolidCli.Domain.csproj">
       <Project>{C84377B0-7B42-42A9-B9F6-96E7B7F5CD72}</Project>
       <Name>DemoSolidCli.Domain</Name>

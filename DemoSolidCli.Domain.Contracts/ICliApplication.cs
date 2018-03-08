@@ -1,4 +1,4 @@
-﻿namespace DemoSolidCli.Domain
+﻿namespace DemoSolidCli.Domain.Contracts
 {
   public interface ICliApplication
   {

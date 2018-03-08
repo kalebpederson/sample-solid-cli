@@ -4,6 +4,7 @@ using System.IO;
 using System.Text;
 using DemoSolidCli.CommandLineParser;
 using DemoSolidCli.Domain;
+using DemoSolidCli.Domain.Contracts;
 using NUnit.Framework;
 
 namespace DemoSolidCli.Tests

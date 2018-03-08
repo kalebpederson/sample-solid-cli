@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace DemoSolidCli.Domain
+namespace DemoSolidCli.Domain.Contracts
 {
   public interface ICommandParser
   {

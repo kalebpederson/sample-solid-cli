@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using DemoSolidCli.Domain.Contracts;
 
 namespace DemoSolidCli.Domain
 {

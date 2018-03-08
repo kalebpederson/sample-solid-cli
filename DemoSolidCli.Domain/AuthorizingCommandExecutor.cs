@@ -1,4 +1,5 @@
 using System.IO;
+using DemoSolidCli.Domain.Contracts;
 
 namespace DemoSolidCli.Domain
 {

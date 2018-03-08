@@ -1,3 +1,5 @@
+using DemoSolidCli.Domain.Contracts;
+
 namespace DemoSolidCli.Domain
 {
   public abstract class TypedCommandDataHandler<T> : ICommandDataHandler where T: ICommandData

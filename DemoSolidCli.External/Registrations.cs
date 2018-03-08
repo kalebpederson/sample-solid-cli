@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using DemoSolidCli.Domain;
+using DemoSolidCli.Domain.Contracts;
 
 namespace DemoSolidCli.External
 {

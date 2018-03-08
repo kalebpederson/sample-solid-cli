@@ -21,10 +21,15 @@ or dependency injection framework.
 
 ## Domain
 
-The domain assembly contains the core logic and structure of the
-application. It introduces the abstractions that the implementations
+The domain assembly contains the core logic for the domain. Having the
+implementation in its own assembly allows the implementation to change
+without forcing changes upon the consumers of the domain contracts.
+
+## Domain.Contracts
+
+This assembly contains the abstractions that the implementations
 rely on. Hence, most all of the projects have a dependency on the
-domain.
+domain's contracts.
 
 ## App
 
@@ -35,12 +40,14 @@ as the composition root for the application (see Mark Seeman's
 
 ## CommandLineParser
 
-The command line parser package encapsulates the dependence on a
+The command line parser package encapsulates the dependency on a
 particular command line parsing library. It keeps the low-level 
 implementation details (i.e., the reliance on the CommandLineParser
 NuGet package) out of the domain. An alternative would be to create
 abstractions within the domain that could be used instead of the
-CommandLineParser abstractions.
+CommandLineParser abstractions. If this were the case, the command
+implementors wouldn't need know anything about the particular command
+line parser library use.
 
 ## External
 

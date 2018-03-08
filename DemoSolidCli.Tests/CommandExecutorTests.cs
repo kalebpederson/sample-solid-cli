@@ -2,6 +2,7 @@
 using AutoFixture;
 using DemoSolidCli.CommandLineParser;
 using DemoSolidCli.Domain;
+using DemoSolidCli.Domain.Contracts;
 using Moq;
 using NUnit.Framework;
 

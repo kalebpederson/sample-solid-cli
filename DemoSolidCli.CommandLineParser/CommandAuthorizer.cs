@@ -1,4 +1,5 @@
 using DemoSolidCli.Domain;
+using DemoSolidCli.Domain.Contracts;
 
 namespace DemoSolidCli.CommandLineParser
 {
